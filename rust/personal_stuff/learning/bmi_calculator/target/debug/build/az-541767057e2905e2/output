@@ -1,0 +1,6 @@
+$ mkdir -p "/home/maddie/programming/rust/personal_stuff/learning/jackin_around/target/debug/build/az-541767057e2905e2/out/try_track_caller"
+$ cd "/home/maddie/programming/rust/personal_stuff/learning/jackin_around/target/debug/build/az-541767057e2905e2/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/maddie/programming/rust/personal_stuff/learning/jackin_around/target/debug/build/az-541767057e2905e2/out/try_track_caller/try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/maddie/programming/rust/personal_stuff/learning/jackin_around/target/debug/build/az-541767057e2905e2/out/try_track_caller"
