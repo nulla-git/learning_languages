@@ -1,2 +1,2 @@
 # programming_stuffs
-just a repo i'm using for learning languages
+I am no longer using this repo
